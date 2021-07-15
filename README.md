@@ -8,3 +8,5 @@
  - [x] Typed.js adding
  - [ ] Countdown/timer for event
  - [ ] Slide in bar
+ - [ ] Facebook, Discord information
+ - [ ] Some more pages?
