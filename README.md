@@ -4,7 +4,7 @@
 ## UNDER CONSTRUCTION
  - [x] No bug 😂
  - [x] Background
- - [ ] Loading page
- - [ ] Typed.js adding
+ - [ ] Loading page (Can't do it...)
+ - [x] Typed.js adding
  - [ ] Countdown/timer for event
  - [ ] Slide in bar

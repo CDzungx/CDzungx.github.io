@@ -7,17 +7,50 @@
 </head>
 
 <body>
- 
+
+  <!--<div class="loading"></div>-->
   <div id="vanta-canvas">
     <br>
-    <h1><center>C D z u n g x</center></h1> 
+    <h1><span class="autotype"></span></h1>
   </div>
+  
   <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
-  <script src="/wjs/three.min.js"></script>
-  <script src="/wjs/vanta.globe.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@0.5.21/dist/vanta.globe.min.js"></script>
+  <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
   <script src="https://kit.fontawesome.com/3590ed5741.js" crossorigin="anonymous"></script>
-  <script type="text/javascript" src="/wjs/indexjs.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script type="text/javascript" src="indexjs.js"></script>
+  <script type="text/javascript">
+  VANTA.GLOBE({
+  el: "#vanta-canvas",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.10,
+  color: 0x88400,
+  color2: 0x6cf4c,
+  size: 0.950,
+  backgroundColor: 0x91116
+})
+  </script>
+  <script>
+    var typed = new Typed('.autotype', {
+  strings: [
+    "D z u n",
+    "D u n g x",
+    "C D z u n g x"
+  ],
+  typeSpeed: 32,
+  backDelay: 500,
+  backSpeed: 75,
+  smartBackspace: true
+});
+  </script>
+
 </body>
 
 </html>
