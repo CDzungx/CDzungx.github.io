@@ -4,6 +4,7 @@
 ## UNDER CONSTRUCTION
  - [x] No bug 😂
  - [x] Background
+ - [ ] Change background
  - [x] Mobile version (Just the font 😶)
  - [ ] Loading page (Can't do it...)
  - [x] Typed.js adding
