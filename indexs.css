@@ -48,7 +48,6 @@ h2 {
   position: absolute;
 }
 
-
 @media screen and (max-width: 481px){
   h1 {
     color: #f0ffc7;
@@ -88,36 +87,4 @@ h2 {
 }
 
 /*
-.loading {
-  text-align: center;
-  left: 0;
-  top: auto;
-  width: 60px;
-  height: 60px;
-  margin: 150px auto;
-  background-color: rgb(173, 209, 162);
-  border-radius: 120%;  
-  -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
-  animation: sk-scaleout 1.0s infinite ease-in-out;
-  z-index: 99;
-}
-
-@-webkit-keyframes sk-scaleout {
-  0% { -webkit-transform: scale(0) }
-  100% {
-    -webkit-transform: scale(1.0);
-    opacity: 0;
-  }
-}
-
-@keyframes sk-scaleout {
-  0% { 
-    -webkit-transform: scale(0);
-    transform: scale(0);
-  } 100% {
-    -webkit-transform: scale(1.0);
-    transform: scale(1.0);
-    opacity: 0;
-  }
-}
 */
