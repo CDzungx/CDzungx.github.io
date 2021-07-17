@@ -6,8 +6,8 @@
  - [x] Background
  - [x] Typed.js adding
  - [x] Facebook, Discord information
+ - [x] Mobile version
  - [ ] Change background
- - [ ] Mobile version (Just the font 😶)
  - [ ] Loading page (Can't do it...)
  - [ ] Countdown/timer for event
  - [ ] Some more pages?
