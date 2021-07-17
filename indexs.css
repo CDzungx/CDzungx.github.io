@@ -31,17 +31,18 @@ h1 {
 h2 {
   color: #f0ffc7;
 	font-family: 'Carter One', cursive;
-	font-size: 5vh;
   text-align: center;
 }
 
 #facebook {
+  font-size: 5vw;
   bottom: 8px;
   right: 16px;
   position: absolute;
 }
 
 #discord {
+  font-size: 5vw;
   bottom: 8px;
   left: 16px;
   position: absolute;

@@ -4,11 +4,10 @@
 ## UNDER CONSTRUCTION
  - [x] No bug 😂
  - [x] Background
- - [ ] Change background
- - [x] Mobile version (Just the font 😶)
- - [ ] Loading page (Can't do it...)
  - [x] Typed.js adding
- - [ ] Countdown/timer for event
- - [ ] Slide in bar
  - [x] Facebook, Discord information
+ - [ ] Change background
+ - [ ] Mobile version (Just the font 😶)
+ - [ ] Loading page (Can't do it...)
+ - [ ] Countdown/timer for event
  - [ ] Some more pages?
