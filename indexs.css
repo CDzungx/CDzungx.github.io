@@ -18,6 +18,7 @@
 h1 {
 	color: #f0ffc7;
 	font-family: 'Carter One', cursive;
+  max-height: 30vh;
 	font-size: 11vh;
   text-align: center;
   -webkit-touch-callout: none;
@@ -31,21 +32,59 @@ h1 {
 h2 {
   color: #f0ffc7;
 	font-family: 'Carter One', cursive;
+	font-size: 5vh;
   text-align: center;
 }
 
 #facebook {
-  font-size: 5vw;
   bottom: 8px;
   right: 16px;
   position: absolute;
 }
 
 #discord {
-  font-size: 5vw;
   bottom: 8px;
   left: 16px;
   position: absolute;
+}
+
+
+@media screen and (max-width: 481px){
+  h1 {
+    color: #f0ffc7;
+    font-family: 'Carter One', cursive;
+    font-size: 15vw;
+    text-align: center;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  h2 {
+    color: #f0ffc7;
+    font-size: 5vw;
+    font-family: 'Carter One', cursive;
+    text-align: center;
+  }
+  
+  #social{
+    font-size: 5vw;
+  }
+
+  #facebook {
+    bottom: 4px;
+    right: 10px;
+    position: absolute;
+  }
+  
+  #discord {
+    bottom: 4px;
+    left: 10px;
+    position: absolute;
+  }
 }
 
 /*
