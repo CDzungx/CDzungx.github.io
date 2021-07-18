@@ -15,19 +15,7 @@
   overflow: hidden;
 }
 
-h1 {
-	color: #f0ffc7;
-	font-family: 'Carter One', cursive;
-  max-height: 30vh;
-	font-size: 11vh;
-  text-align: center;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
+h1 {color: #f0ffc7;font-family: 'Carter One', cursive;max-height: 30vh;font-size: 11vh;text-align: center;-webkit-touch-callout: none;-webkit-user-select: none;-khtml-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}
 
 h2 {
   color: #f0ffc7;
