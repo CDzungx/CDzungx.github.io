@@ -11,5 +11,3 @@
  - [ ] Loading page (Can't do it...)
  - [ ] Countdown/timer for event
  - [ ] Some more pages?
-
-### Improve CSS
