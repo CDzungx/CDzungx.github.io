@@ -23,14 +23,14 @@
 
 h1 {
   position             : absolute;
+  top                  : 3vh;
   left                 : 0;
   right                : 0;
   margin-left          : auto;
   margin-right         : auto;
   color                : #f0ffc7;
   font-family          : 'Carter One', cursive;
-  max-height           : 30vh;
-  font-size            : 11vh;
+  font-size            : 13vh;
   text-align           : center;
   -webkit-touch-callout: none;
   -webkit-user-select  : none;
