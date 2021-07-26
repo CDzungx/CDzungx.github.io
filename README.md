@@ -7,7 +7,7 @@
  - [x] Typed.js adding
  - [x] Facebook, Discord information
  - [x] Mobile version
+ - [ ] Some more pages? (Random wheel + .🤐.)
  - [ ] Change background
- - [ ] Loading page (Can't do it...)
+ - [ ] Loading page (Can't do it... (╯‵□′)╯︵┻━┻  )
  - [ ] Countdown/timer for event
- - [ ] Some more pages?
