@@ -1,12 +1,11 @@
 * {
-  margin : 0;
-  padding: 0;
+  margin  : 0;
+  padding : 0;
+  overflow: hidden;
 }
 
 #containter {
-  position    : relative;
-  margin-left : auto;
-  margin-right: auto;
+  position: relative;
 }
 
 #particles-js {
@@ -14,16 +13,41 @@
   width              : 100%;
   height             : 100vh;
   background-color   : #0d1814;
-  background-image   : url("");
   background-repeat  : no-repeat;
   background-size    : cover;
   background-position: 50% 50%;
-  overflow           : hidden;
 }
+
+.menuicon {
+  font-weight: bold;
+  position   : absolute;
+  top        : -1px;
+  left       : 14px;
+  color      : #f0ffc7;
+  font-size  : 8.5vh;
+}
+
+/*
+#menu {
+  position     : absolute;
+  top          : 40vh;
+  left         : -15px;
+  right        : 0;
+  border       : 2.5px solid rgb(0, 24, 18);
+  text-align   : center;
+  border-radius: 5px;
+  color        : #f0ffc7;
+  background   : rgb(0, 99, 4);
+  background   : linear-gradient(0deg, rgb(43, 95, 0) 0%, rgb(0, 49, 2) 100%);
+  padding      : 15px;
+  width        : 2vw;
+  height       : 20vh;
+}
+*/
 
 h1 {
   position             : absolute;
-  top                  : 3vh;
+  top                  : 2vh;
   left                 : 0;
   right                : 0;
   margin-left          : auto;
@@ -40,15 +64,10 @@ h1 {
   user-select          : none;
 }
 
-.autotype {
-  position: relative;
-}
-
 h2 {
   color      : #f0ffc7;
   font-family: 'Carter One', cursive;
   font-size  : 5vh;
-  text-align : center;
 }
 
 #facebook {
@@ -65,8 +84,23 @@ h2 {
 
 @media screen and (max-width: 481px) {
 
+  .menuicon {
+    font-weight: bold;
+    position   : absolute;
+    top        : -1px;
+    left       : 5px;
+    color      : #f0ffc7;
+    font-size  : 8vh;
+  }
+
   h1 {
     color                : #f0ffc7;
+    position             : absolute;
+    top                  : 7vh;
+    left                 : 0;
+    right                : 0;
+    margin-left          : auto;
+    margin-right         : auto;
     font-family          : 'Carter One', cursive;
     font-size            : 15vw;
     text-align           : center;
@@ -86,7 +120,7 @@ h2 {
   }
 
   #social {
-    font-size: 5vw;
+    font-size: 6vw;
   }
 
   #facebook {
@@ -101,7 +135,3 @@ h2 {
     position: absolute;
   }
 }
-
-
-/*
-*/
