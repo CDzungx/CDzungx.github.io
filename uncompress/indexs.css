@@ -153,14 +153,15 @@ h2 {
 }
 
 .mm-navbar {
-  --mm-color-background: #023817;
+  --mm-color-background : #023817;
   --mm-color-text-dimmed: #fff;
-  --mm-color-button: #fff;
+  --mm-color-button     : #fff;
 }
+
 .mm-panel {
-  --mm-color-background: radial-gradient( circle farthest-corner at 10% 20%,  rgba(0,104,55,1) 0%, rgba(11,51,33,1) 90% );
-  --mm-color-text: rgb(255, 255, 255);
-  --mm-color-button: #4bb5ef;
+  --mm-color-background: radial-gradient(circle farthest-corner at 10% 20%, rgba(0, 104, 55, 1) 0%, rgba(11, 51, 33, 1) 90%);
+  --mm-color-text      : rgb(255, 255, 255);
+  --mm-color-button    : #4bb5ef;
 }
 
 #menu {
