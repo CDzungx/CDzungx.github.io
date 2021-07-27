@@ -1,11 +1,11 @@
 * {
   margin  : 0;
   padding : 0;
-  overflow: hidden;
+  overflow: hidden
 }
 
 #containter {
-  position: relative;
+  position: relative
 }
 
 #particles-js {
@@ -15,7 +15,7 @@
   background-color   : #0d1814;
   background-repeat  : no-repeat;
   background-size    : cover;
-  background-position: 50% 50%;
+  background-position: 50% 50%
 }
 
 h1 {
@@ -34,39 +34,37 @@ h1 {
   -khtml-user-select   : none;
   -moz-user-select     : none;
   -ms-user-select      : none;
-  user-select          : none;
+  user-select          : none
 }
 
 h2 {
   color      : #f0ffc7;
   font-family: 'Carter One', cursive;
-  font-size  : 5vh;
+  font-size  : 5vh
 }
 
 #facebook {
   bottom  : 8px;
   right   : 16px;
-  position: absolute;
+  position: absolute
 }
 
 #discord {
   bottom  : 8px;
   left    : 16px;
-  position: absolute;
+  position: absolute
 }
-
 
 :root {
   --mb-button-size    : 35px;
   --mb-bar-width      : 1;
   --mb-bar-height     : 5px;
   --mb-bar-spacing    : 9px;
-  --mb-animate-timeout: 0s;
+  --mb-animate-timeout: 0
 }
 
 .mburger {
-
-  font-weight   : bold;
+  font-weight   : 700;
   border        : none;
   border-radius : 0;
   color         : #f0ffc7;
@@ -81,7 +79,7 @@ h2 {
   appearance    : none;
   outline       : 0;
   cursor        : pointer;
-  z-index       : 999;
+  z-index       : 999
 }
 
 .mburger b {
@@ -126,16 +124,16 @@ h2 {
 }
 
 .mburger--spin b:nth-of-type(1) {
-  transition-delay: .2s, 0s
+  transition-delay: .2s, 0
 }
 
 .mburger--spin b:nth-of-type(2) {
-  transition-duration: 0s;
+  transition-duration: 0;
   transition-delay   : .2s
 }
 
 .mburger--spin b:nth-of-type(3) {
-  transition-delay: .2s, 0s
+  transition-delay: .2s, 0
 }
 
 .mm-wrapper_opened .mburger--spin b:nth-of-type(1) {
@@ -155,62 +153,77 @@ h2 {
 .mm-navbar {
   --mm-color-background : #023817;
   --mm-color-text-dimmed: #fff;
-  --mm-color-button     : #fff;
+  --mm-color-button     : #fff
 }
 
 .mm-panel {
   --mm-color-background: radial-gradient(circle farthest-corner at 10% 20%, rgba(0, 104, 55, 1) 0%, rgba(11, 51, 33, 1) 90%);
-  --mm-color-text      : rgb(255, 255, 255);
-  --mm-color-button    : #4bb5ef;
+  --mm-color-text      : #fff;
+  --mm-color-button    : #4bb5ef
+}
+
+.mm-menu {
+  --mm-listitem-size: 8vh;
 }
 
 #menu {
-  position   : absolute;
   font-family: 'Carter One', cursive;
-  color      : #f0ffc7;
+  color      : #f0ffc7
 }
 
 @media screen and (max-width: 481px) {
-
   h1 {
-    color                : #f0ffc7;
-    position             : absolute;
-    top                  : 7vh;
-    left                 : 0;
-    right                : 0;
-    margin-left          : auto;
-    margin-right         : auto;
-    font-family          : 'Carter One', cursive;
-    font-size            : 15vw;
-    text-align           : center;
-    -webkit-touch-callout: none;
-    -webkit-user-select  : none;
-    -khtml-user-select   : none;
-    -moz-user-select     : none;
-    -ms-user-select      : none;
-    user-select          : none;
+      top                  : 7vh;
+      font-size            : 15vw;
   }
 
   h2 {
-    color      : #f0ffc7;
-    font-size  : 5vw;
-    font-family: 'Carter One', cursive;
-    text-align : center;
+      font-size  : 5vw;
   }
 
   #social {
-    font-size: 6vw;
+      font-size: 6vw
   }
 
   #facebook {
-    bottom  : 10px;
-    right   : 10px;
-    position: absolute;
+      bottom  : 10px;
+      right   : 10px;
   }
 
   #discord {
-    bottom  : 10px;
-    left    : 10px;
-    position: absolute;
+      bottom  : 10px;
+      left    : 10px;
   }
+
+  :root {
+      --mb-button-size    : 7vw;
+      --mb-bar-width      : 1;
+      --mb-bar-height     : 1.5vw;
+      --mb-bar-spacing    : 1.5vw;
+      --mb-animate-timeout: 0.1s;
+  }
+
+  .mburger {
+      font-weight: 700;
+      margin     : 10px;
+  }
+
+  .mm-panel {
+      --mm-color-background: radial-gradient(circle farthest-corner at 10% 20%, rgba(0, 104, 55, 1) 0%, rgba(11, 51, 33, 1) 90%);
+      --mm-color-text      : #fff;
+      --mm-color-button    : #4bb5ef
+  }
+
+}
+
+
+#rwheelbg {
+  bottom             : 0;
+  width              : 100%;
+  height             : 100vh;
+  background-repeat  : no-repeat;
+  background-size    : cover;
+  background-position: 50% 50%;
+  background-image   : linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+  overflow           : hidden;
 }
