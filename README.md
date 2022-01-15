@@ -1,3 +1,3 @@
-# [Website](https://cdzungx.github.io)
+# [Website](https://cdzungx.tk)
 
 ## UNDER CONSTRUCTION
