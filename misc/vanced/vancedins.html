@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html style="width: 100%; height: 100%; overflow: auto;" lang="en-US">
+
+<head>
+  <meta charset=utf-8>
+  <meta name=viewport content="width=device-width, initial-scale=1">
+  <title>Vanced Installation</title>
+  <link rel="icon" href="\src\img\VCNN.png" type="image/x-icon">
+  <link rel=stylesheet href=https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css>
+  <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel=stylesheet>
+  <link href="https://fonts.googleapis.com/css2?family=Mitr&display=swap" rel=stylesheet>
+  <script src="https://kit.fontawesome.com/3590ed5741.js" crossorigin="anonymous"></script>
+  <style type="text/css">
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: #fbe9ff;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: rgb(87, 66, 90);
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: rgb(131, 3, 136);
+    }
+
+    .transbox {
+      position: relative;
+      top: -30px;
+    }
+
+    body section.hero {
+      background-image: linear-gradient(160deg, #f34360 0, #5f1d4a98 100%);
+    }
+
+    .header {
+      color: #3f064b
+    }
+
+    .header2 {
+      color: #620874
+    }
+  </style>
+</head>
+
+<body style="font-family: 'Mitr', sans-serif;">
+  <section class="hero is-link is-medium has-text-centered">
+    <div class="hero-body">
+      <p class="title" style="font-size: 3.5em;">
+        Youtube Vanced Install Guide
+      </p>
+      <p class="subtitle" style="opacity: 80%;">
+        Working even after the discontinuation of Vanced project.
+      </p>
+    </div>
+  </section>
+
+  <div class="container px-2">
+    <div class="has-text-centered px-6">
+      <div class="box transbox is-justify-content-center is-flex-wrap-wrap">
+        Translate this page
+        <div id="google_translate_element"></div>
+      </div>
+      <div class="title header is-0 pt-5">Change download channel URL</div>
+    </div>
+    <div class="vancedcontent">
+      <div class="title header2 is-4">
+        <div>Install</div>
+        <div class="pl-3 pt-3 subtitle is-5">
+          - Install the Vanced Manager APK
+        </div>
+        <div class="has-text-centered">
+          <div class="button has-text-centered"><a
+              href="https://mega.nz/file/czxViCZS#K9ynPfdntAHcu9PCwZ5_cIjd0dW7bgGshdUzQ_bymoM" target=_blank><i
+                class="fa-solid fa-download pr-3"></i>Download Vanced Manager</a>
+          </div>
+
+        </div>
+
+        <div class="title header2 is-4">Change API URL</div>
+        <div class="pl-3 pt-3 subtitle is-5">
+          - Open Vanced Manager <br>
+          - Tap "About" <br>
+          - Tap on empty space 5 times <br>
+          - Setting > Gear icon (Developer setting) > Channel URL <br>
+          - Copy & paste the Channel URL 
+        </div>
+        <div class="block pl-6">
+          <div class="columns">
+            <div class="column p-0">
+              <input class="input" type="text" value="https://vanced.cdzungx.workers.dev/0:/api/v1/" id="vanceapi">
+            </div>
+            <div class="column p-0">
+              <div class="button copybutton" onclick="copyapi()" id="copyme"><i
+                  class="fa-solid fa-clipboard"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pl-3 subtitle is-5">
+          - Install any version of Youtube Vanced / Vanced Music
+        </div>
+        <figure class="image is-16by9 has-text-centered">
+          <iframe class="has-ratio" src="\src\img\vanced.mp4" frameborder="0" allowfullscreen></iframe>
+        </figure>
+      </div>
+    </div>
+
+    <footer class="footer pb-0">
+      <div class="content has-text-centered">
+        <p>
+         Last Update 4/2022<br>
+         <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://cdzungx.tk/misc/vanced/vancedins.html">Vanced Installation</a> by <span property="cc:attributionName">CDzungx</span> is licensed under <a href="http://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"></a></p>        </p>
+      </div>
+    </footer>
+
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement({ pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE }, 'google_translate_element');
+      }
+    </script>
+    <script>
+      function copyapi() {
+        var button = document.getElementById("copyme");
+        var copyText = document.getElementById("vanceapi");
+        copyText.select();
+        document.execCommand("Copy");
+      }
+    </script>
+    <script type="text/javascript"
+      src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+
+</html>
