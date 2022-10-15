@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Carter+One&family=Pacifico&display=swap");
+
+html,
+body {
+  overflow: hidden;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  font-family: "Carter One", cursive;
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  background: 0 0;
+  display: none;
+}
+
+.navbox {
+  height: 100%;
+  background: repeating-linear-gradient(
+    130deg,
+    #ffffff,
+    #dadada 75%,
+    #5f5f5f 25%,
+    #8f8f8f 100%
+  );
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.navbar {
+  background-color: transparent;
+}
+
+.navbar-dropdown {
+  z-index: 999;
+}
+
+.section {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  padding: 0;
+}
+
+.countdownIcon:hover::before {
+  font-family: "Font Awesome 6 Free";
+  content: "\f017";
+  display: inline-block;
+  animation: fadeInRight;
+  animation-duration: 0.4s;
+  padding-right: 4px;
+}
+
+.gear {
+  --fa-animation-duration: 30s;
+  position: fixed;
+  bottom: -30%;
+  left: -20vw;
+  transform: translate(-50%, -50%);
+  font-size: clamp(15rem, 80vw, 80vh);
+  opacity: 0.5;
+}
+
+i.fa-discord {
+  font-size: clamp(1rem, 5vw, 20vh);
+}
+
+#discord {
+  bottom: 8px;
+  right: 16px;
+  position: fixed;
+  color: #5f5f5f;
+  animation: backInLeft;
+  animation-duration: 0.8s;
+  font-size: 1em;
+}
+
+@media screen and (max-width: 65em) {
+  .navbox {
+    height: 100%;
+    background: repeating-linear-gradient(
+      120deg,
+      #ffffff,
+      #dadada 65%,
+      #ffffff 35%,
+      #e8e8e8 100%
+    );
+  }
+
+  .gear {
+    bottom: -20%;
+    left: -30%;
+  }
+}
