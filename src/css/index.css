@@ -6,16 +6,6 @@ body {
   -ms-overflow-style: none;
   scrollbar-width: none;
   font-family: "Carter One", cursive;
-  margin: 0;
-  padding: 0;
-}
-
-.background {
-  position: absolute;
-  display: block;
-  top: 0;
-  left: 0;
-  z-index: 0;
 }
 
 ::-webkit-scrollbar {
@@ -85,8 +75,8 @@ i.fa-discord {
   right: 16px;
   position: fixed;
   color: #5f5f5f;
-  animation: backInLeft;
-  animation-duration: 0.8s;
+  animation: backInRight;
+  animation-duration: 0.5s;
   font-size: 1em;
 }
 

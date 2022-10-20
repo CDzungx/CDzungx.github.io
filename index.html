@@ -6,13 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>CDzungx</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reseter.css" />
-  <!--<script src="https://unpkg.com/@barba/core"></script>-->
+  <!--<script content-type="utf-8" src="https://unpkg.com/@barba/core"></script>-->
   <script content-type="utf-8" src="https://kit.fontawesome.com/3590ed5741.js" crossorigin="anonymous"></script>
-  <script content-type="utf-8" src="src\mmenu\mmenu-light.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" />
+  <script content-type="utf-8" src="src\mmenu\mmenu-light.js"></script>
   <link rel="stylesheet" href="src\mmenu\mmenu-light.css" />
-  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="/src/css/index.css" />
 </head>
 
 <body>
@@ -20,7 +20,7 @@
     <div class="container is-fluid">
       <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
-          <a class="navbar-item" href="https://cdzungx.dev/">
+          <a class="navbar-item" href="/">
             <figure class="image">
               <img class="is-rounded" src="src\img\avt.jpg" width="30" height="30" />
             </figure>
@@ -32,19 +32,19 @@
             <ul>
               <li class="Selected"><a href="/">Home</a></li>
               <li><a href="https://thongnhat.gq/">Countdown</a></li>
-              <li><span>Android</span>
+              <li>
+                <span>Android</span>
                 <ul>
                   <li><a href="/rcmd">Recommended Applications</a></li>
                   <li><a href="/">Root/Hiding Root [0%]</a></li>
                 </ul>
               </li>
-
             </ul>
           </nav>
         </div>
         <div id="navbar" class="navbar-menu pl-6">
           <div class="navbar-start">
-            <a class="navbar-item mx-4" href="https://cdzungx.dev/"><i class="fa-solid fa-house pr-3"></i></a><a
+            <a class="navbar-item mx-4" href="/"><i class="fa-solid fa-house pr-3"></i></a><a
               class="navbar-item mx-4 countdownIcon" href="https://thongnhat.gq/">Countdown
             </a>
             <div class="navbar-item has-dropdown is-hoverable mx-4 androidIcon">
@@ -65,7 +65,9 @@
                 <a class="navbar-item">Contact [0%]</a>
                 <hr class="navbar-divider" />
                 <hr class="navbar-divider" />
-                <div class="navbar-item">Version 2 Alpha <br>(16 Oct 2022)</div>
+                <div class="navbar-item">
+                  Version 2 Alpha 2<br />(16 Oct 2022)
+                </div>
               </div>
             </div>
           </div>
@@ -82,43 +84,28 @@
       </nav>
     </div>
   </div>
-  <section class="section">
-    <div class="container is-fluid">
-      <div class="title is-5 has-text-right">This page is underdevelopment</div>
-      <a class="button is-pulled-right" href="/old">Old Homepage</a>
-      <i class="fa-solid fa-cog fa-spin gear"></i>
-      <div id=discord>
-        <i class="fab fa-discord"></i><br>
-        <span class=discordat></span>
+  <main data-barba="container" data-barba-namespace="Homepage">
+    <section class="section">
+      <div class="container is-fluid">
+        <div class="title is-5 has-text-right">
+          This page is underdevelopment
+        </div>
+        <a class="button is-pulled-right" href="/old">Old Homepage</a>
+        <i class="fa-solid fa-cog fa-spin gear"></i>
+        <div id="discord">
+          <i class="fab fa-discord"></i><br />
+          <span class="discordat"></span>
+        </div>
       </div>
-    </div>
-  </section>
-  <script src=https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js></script>
+    </section>
+  </main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://unpkg.com/gsap@latest/dist/gsap.min.js"></script>
   <!--
-    <script>
-      document.addEventListener("DOMContentLoaded", () => {
-        // Get all "navbar-burger" elements
-        const $navbarBurgers = Array.prototype.slice.call(
-          document.querySelectorAll(".navbar-burger"),
-          0
-        );
+  <script defer src="/src/js/barba.js"></script>-->
+  <script src="/src/js/menu.js"></script>
 
-        // Add a click event on each of them
-        $navbarBurgers.forEach((el) => {
-          el.addEventListener("click", () => {
-            // Get the target from the "data-target" attribute
-            const target = el.dataset.target;
-            const $target = document.getElementById(target);
-
-            // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-            el.classList.toggle("is-active");
-            $target.classList.toggle("is-active");
-          });
-        });
-      });
-    </script>-->
-  <script src="/mainjs.js"></script>
   <script>
     typed = new Typed(".discordat", {
       strings: ["Discord", "CDzungx#0843"],

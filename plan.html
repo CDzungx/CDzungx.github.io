@@ -2,108 +2,176 @@
 <html style="width: 100%; height: 100%; overflow: auto;">
 
 <head>
-    <meta charset=utf-8>
-    <meta name=viewport content="width=device-width, initial-scale=1">
-    <title>Website Plan</title>
-    <link rel=stylesheet href=https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css>
-    <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel=stylesheet>
-    <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@500&display=swap" rel=stylesheet>
-    <script src="https://kit.fontawesome.com/3590ed5741.js" crossorigin="anonymous"></script>
-    <style type="text/css">
-        ::-webkit-scrollbar {
-            width: 0px;
-            background: transparent;
-        }
+  <meta charset=utf-8>
+  <meta name=viewport content="width=device-width, initial-scale=1">
+  <title>Website Plan</title>
+  <!--
+  <script src="https://unpkg.com/@barba/core"></script>-->
+  <link rel=stylesheet href=https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css>
+  <script src="https://kit.fontawesome.com/3590ed5741.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Mitr:wght@500&display=swap" rel="stylesheet">
+  <script content-type="utf-8" src="src\mmenu\mmenu-light.js"></script>
+  <link rel="stylesheet" href="src\mmenu\mmenu-light.css" />
+  <style type="text/css">
+    ::-webkit-scrollbar {
+      width: 0px;
+      background: transparent;
+    }
 
-        .box {
-            position: relative;
-            top: 0;
-            transition: top ease 0.2s;
-        }
+    .box {
+      position: relative;
+      top: 0;
+      transition: top ease 0.2s;
+    }
 
-        .box:hover {
-            top: -3px;
-        }
-    </style>
+    .box:hover {
+      top: -3px;
+    }
+  </style>
+  <link rel="stylesheet" href="/src/css/alt.css" />
 </head>
 
 <body style="font-family: 'Mitr', sans-serif;">
-    <section class=pt-6>
-        <div class="container">
-            <article class="media">
-                <div class="media-left"></div>
-                <div class="media-content" style="overflow:inherit">
-                    <div class="content mt-2">
-                        <h1 class="title is-1 is-size-2-mobile has-text-weight-bold "
-                            style="font-family: 'Carter One';">Website Plans </h1>
-                    </div>
-                </div>
-                <nav aria-label="dropdown navigation" class=navbar-end role=navigation>
-                    <div class="navbar-item has-dropdown is-hidden-mobile is-hoverable is-transparent level-right"
-                        aria-label="dropdown navigation" role=navigation><a class=navbar-link>Menu</a>
-                        <div class="is-boxed navbar-dropdown"><a class=navbar-item href= />Home </a><a class=navbar-item
-                                href=https://thongnhat.gq />Countdown</a><a class=navbar-item href=/contact>Contact</a>
-                            <hr class=navbar-divider>
-                            <div class=navbar-item>Version 2.0 Alpha</div>
-                        </div>
-                    </div>
-                </nav>
-            </article>
-            <div class="columns mt-4 pt-4">
-                <div class="column is-one-third">
-                    <div class="box has-text-centered"
-                        style="background-image: linear-gradient(160deg, #e4e2e2 0%, #bdbdbd 100%);">
-                        <p class="title" style="font-weight:bolder">To do</p>
-                        <p class="subtitle is-5">Have tudoo these</p>
-                    </div>
-                    <div class="column is-auto">
-                        <div class="box" style="background-image: linear-gradient(160deg, #eeeeee 0%, #e2e2e2 100%);">
-                            <p>Loading pop-up/page</p>
-                        </div>
-                    </div>
-                    <div class="column is-auto">
-                        <div class="box" style="background-image: linear-gradient(160deg, #eeeeee 0%, #e2e2e2 100%);">
-                            <p>Built-with page</p>
-                        </div>
-                    </div>
-                    <div class="column is-auto">
-                        <div class="box" style="background-image: linear-gradient(160deg, #eeeeee 0%, #e2e2e2 100%);">
-                            <p>Optimize Website</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="column is-one-third">
-                    <div class="box has-text-centered"
-                        style="background-image: linear-gradient(145deg, #eeff51 0%, #ffca58d5 100%);">
-                        <p class="title" style="font-weight:bolder">In progress</p>
-                        <p class="subtitle is-5">Doin it</p>
-                    </div>
-                    <div class="column is-auto">
-                        <div class="box" style="background-image: linear-gradient(160deg, #feffb6 0%, #f8e58e 100%);">
-                            <p>New Homepage</p>
-                        </div>
-                    </div>
-                    <div class="column is-auto">
-                        <div class="box" style="background-image: linear-gradient(160deg, #feffb6 0%, #f8e58e 100%);">
-                            <p>Improve website UI</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="column is-one-third">
-                    <div class="box has-text-centered"
-                        style="background-image: linear-gradient(145deg, #2cdb157e 0%, #5df75d 100%);">
-                        <p class="title" style="font-weight:bolder">Done</p>
-                        <p class="subtitle is-5">Heck yeh</p>
-                    </div>
-                    <div class="column is-auto">
-                        <div class="box" style="background-image: linear-gradient(160deg, #b3ff90 0%, #78f87e 100%);">
-                            <p>Improve Countdown page [80%]</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+  <div class="box navbox">
+    <div class="container is-fluid">
+      <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="/">
+            <figure class="image">
+              <img class="is-rounded" src="src\img\avt.jpg" width="30" height="30" />
+            </figure>
+          </a>
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="mobileNavBar"
+            href="#mobileNav"><span aria-hidden="true"></span><span aria-hidden="true"></span><span
+              aria-hidden="true"></span></a>
+          <nav id="mobileNav" class="is-hidden-desktop">
+            <ul>
+              <li class="Selected"><a href="/">Home</a></li>
+              <li><a href="https://thongnhat.gq/">Countdown</a></li>
+              <li>
+                <span>Android</span>
+                <ul>
+                  <li><a href="/rcmd">Recommended Applications</a></li>
+                  <li><a href="/">Root/Hiding Root [0%]</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
         </div>
+        <div id="navbar" class="navbar-menu pl-6">
+          <div class="navbar-start">
+            <a class="navbar-item mx-4" href="/"><i class="fa-solid fa-house pr-3"></i></a><a
+              class="navbar-item mx-4 countdownIcon" href="https://thongnhat.gq/">Countdown
+            </a>
+            <div class="navbar-item has-dropdown is-hoverable mx-4 androidIcon">
+              <a class="navbar-link"><i class="fa-brands fa-android pr-3"></i>Android
+              </a>
+              <div class="navbar-dropdown">
+                <a class="navbar-item" href="/rcmd">Recommended Applications
+                </a>
+                <hr class="navbar-divider" />
+                <a class="navbar-item">Root/Hiding Root [0%] </a>
+              </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable mx-4">
+              <a class="navbar-link">More </a>
+              <div class="navbar-dropdown">
+                <a class="navbar-item" href="/plan">Website Plans</a>
+                <hr class="navbar-divider" />
+                <a class="navbar-item">Contact [0%]</a>
+                <hr class="navbar-divider" />
+                <hr class="navbar-divider" />
+                <div class="navbar-item">
+                  Version 2 Alpha <br />(16 Oct 2022)
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="navbar-end">
+            <div class="navbar-item">
+              <div class="buttons">
+                <a class="button" href="https://github.com/"><i class="fa-brands fa-github-alt"></i></a><a
+                  class="button px-4" href="/roadmap"><i class="fa-solid fa-map-location-dot pr-3"></i>Roadmap
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+    <section class=pt-6>
+      <div class="container">
+        <article class="media">
+          <div class="media-left"></div>
+          <div class="media-content" style="overflow:inherit">
+            <div class="content mt-2">
+              <h1 class="title is-1 is-size-2-mobile has-text-weight-bold " style="font-family: 'Carter One';">Website
+                Plans </h1>
+            </div>
+          </div>
+
+        </article>
+        <div class="columns mt-4 pt-4">
+          <div class="column is-one-third">
+            <div class="box has-text-centered"
+              style="background-image: linear-gradient(160deg, #e4e2e2 0%, #bdbdbd 100%);">
+              <p class="title" style="font-weight:bolder">To do</p>
+              <p class="subtitle is-5">Have tudoo these</p>
+            </div>
+            <div class="column is-auto">
+              <div class="box" style="background-image: linear-gradient(160deg, #eeeeee 0%, #e2e2e2 100%);">
+                <p>Loading pop-up/page</p>
+              </div>
+            </div>
+            <div class="column is-auto">
+              <div class="box" style="background-image: linear-gradient(160deg, #eeeeee 0%, #e2e2e2 100%);">
+                <p>Built-with page</p>
+              </div>
+            </div>
+            <div class="column is-auto">
+              <div class="box" style="background-image: linear-gradient(160deg, #eeeeee 0%, #e2e2e2 100%);">
+                <p>Optimize Website</p>
+              </div>
+            </div>
+          </div>
+          <div class="column is-one-third">
+            <div class="box has-text-centered"
+              style="background-image: linear-gradient(145deg, #eeff51 0%, #ffca58d5 100%);">
+              <p class="title" style="font-weight:bolder">In progress</p>
+              <p class="subtitle is-5">Doin it</p>
+            </div>
+            <div class="column is-auto">
+              <div class="box" style="background-image: linear-gradient(160deg, #feffb6 0%, #f8e58e 100%);">
+                <p>New Homepage</p>
+              </div>
+            </div>
+            <div class="column is-auto">
+              <div class="box" style="background-image: linear-gradient(160deg, #feffb6 0%, #f8e58e 100%);">
+                <p>Improve website UI</p>
+              </div>
+            </div>
+          </div>
+          <div class="column is-one-third">
+            <div class="box has-text-centered"
+              style="background-image: linear-gradient(145deg, #2cdb157e 0%, #5df75d 100%);">
+              <p class="title" style="font-weight:bolder">Done</p>
+              <p class="subtitle is-5">Heck yeh</p>
+            </div>
+            <div class="column is-auto">
+              <div class="box" style="background-image: linear-gradient(160deg, #b3ff90 0%, #78f87e 100%);">
+                <p>Improve Countdown page [80%]</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
+  <script src="/src/js/menu.js"></script>
+  <!--
+  <script src="https://unpkg.com/gsap@latest/dist/gsap.min.js"></script>
+  <script src="/src/js/barba.js"></script>
+-->
 </body>
 
 </html>

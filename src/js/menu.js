@@ -15,11 +15,3 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
-window.onload = function () {
-  Particles.init({
-    selector: ".background",
-    maxParticles: 80,
-    minDistance: 150,
-    connectParticles: true,
-  });
-};
